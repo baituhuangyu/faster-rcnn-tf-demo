@@ -1,0 +1,20 @@
+# 修改
+
+
+```
+train_main.sh
+sample/config/pipeline.config
+
+dataset_tools/create_pascal_tf_record.py
+dataset_tools/create_coco_dataset.sh
+dataset_tools/create_coco_tf_record.py
+
+data/*.json
+data/*.pbtxt
+
+```
+
+# 需要添加backbone 时，在 `nets` 下添加
+# 需要切换到ssd或者maskrcnn 时，在 `nets` 、 `meta_architectures`、 `models` 下添加
+
+
